@@ -48,9 +48,18 @@
             {
                 Console.WriteLine("Two lengths of lines are equal");
             }
-            else
+            else if (length1 > length2)
+            {
+             
+                Console.WriteLine("Two lengths of lines are not equal");
+            }
+            else if (length1 < length2)
             {
                 Console.WriteLine("Two lengths of lines are not equal");
+            }
+            else
+            {
+                Console.WriteLine("Both are not equal");
             }
             Console.ReadKey();
         }
